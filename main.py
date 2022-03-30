@@ -97,18 +97,70 @@
 # else:
 #   print("Too high")
 
-num = int(input("Введите число 1, 2 или 3: "))
-if num == 1:
-  print("Thank you")
-elif num == 2:
-  print("Well done")
-elif num == 3:
-  print("Correct")
+# num = int(input("Введите число 1, 2 или 3: "))
+# if num == 1:
+#   print("Thank you")
+# elif num == 2:
+#   print("Well done")
+# elif num == 3:
+#   print("Correct")
+# else:
+#   print("Error message")
+
+# name = input("Введите ваше имя ")
+# print(name.title())
+# print("Hello world"[0:3])
+  
+# name = input("Please rigth you name: ")
+# print(len(name))
+
+# name = input("rigth you name ")
+# surname = input("rigth you surname ")
+# NS = name +" "+surname
+# length = len(NS)
+# print(NS + "\n", length)
+
+# name = input("rigth you name in lower case ")
+# surname = input("rigth you surname in lower case ")
+# NS = name + " " + surname
+# print(NS.title())
+
+# poem = input("enter the first line of the poem ")
+# print(len(poem))
+# gap = int(input("enter first number"))
+# gap1 = int(input("enter last number of the gap "))
+# print(poem[gap:gap1])
+
+# name = input("введите имя ")
+# print(name.upper())
+
+# name = input("enter you name ")
+# name1 = len(name)
+
+# if name1 < 5:
+#   surname = input("enter surname ")
+#   NS = name + surname
+#   print(NS.upper())
+# elif name1 >= 5:
+#   name = str(name)
+#   print(name.lower())
+
+word = input("Please enter a word: ")
+first = word[0]
+length = len(word)
+rest = word[1:length]
+if first != "a" and first != "e" and first != "i" and first != "o" and first != "u":
+ newword = rest + first + "ay"
 else:
-  print("Error message")
+ newword = word + "way"
+print(newword.lower())
+
   
-  
- 
+
+
+
+
+
 
   
 
