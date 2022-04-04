@@ -145,15 +145,136 @@
 #   name = str(name)
 #   print(name.lower())
 
-word = input("Please enter a word: ")
-first = word[0]
-length = len(word)
-rest = word[1:length]
-if first != "a" and first != "e" and first != "i" and first != "o" and first != "u":
- newword = rest + first + "ay"
-else:
- newword = word + "way"
-print(newword.lower())
+# word = input("Please enter a word: ")
+# first = word[0]
+# length = len(word)
+# rest = word[1:length]
+# if first != "a" and first != "e" and first != "i" and first != "o" and first != "u":
+#  newword = rest + first + "ay"
+# else:
+#  newword = word + "way"
+# print(newword.lower())
+
+import math
+
+# number = float(input("ввести число с большим количеством знаков в дробной части "))
+# rezults = number * 2
+# print(round(rezults, 2))
+
+# num_pi = math.pi
+# print(round(num_pi, 5))
+
+# num = float(input("Введите число больше 500 "))
+# if num >= 500:
+#   rez = math.sqrt(num)
+#   print("Корень из ", num, " равен" , round(rez, 2))
+# else:
+#   print("Не похоже, что это число больше 500")
+
+# radius = float(input("Ввеите радиус круга "))
+# sq = math.pi * (radius**2)
+# print("Радиус круга", round(sq, 2))
+
+# radius = int(input("Введите радиус цилиндра "))
+# higth = int(input("Введите высоту цилиндра "))
+# sq = math.pi * (radius**2)
+# v_sq = sq * higth
+# print("Объем цилинда", round(v_sq, 3))
+
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+# rez = num1//num2
+# rez1 = num1%num2
+# if num1 > num2:
+#   print("You enter", num1, "and", num2, "if", num1, "divide on", num2, "rezults  was", rez, "with remains ", rez1 )
+# else:
+#   print("Ввеите первое число больше второго")
+
+# shape = int(input("Выберите фигуру для расчета:\n 1) Квадрат\n 2) Треугольник\n расчета введите 1 или 2 "))
+# if shape == 1:
+#   sq = int(input("Введите длину стороны квадрата "))
+#   s_sq = sq**2
+#   print("Площадь квадрата равна ", s_sq)
+# elif shape == 2:
+#   tr = int(input("Введите длину стороны треугольника "))
+#   higth_tr = int(input("Введите высоту треугольника проведенную к этой стороне "))
+#   s_tr = (tr*higth_tr)*0.5
+#   print("Прощадь треугольника равна ", s_tr)
+# else:
+#   print("Не похоже что вы ввели 1 или 2 ")
+
+# name = input("enter you name ")
+# count = int(input("enter number "))
+
+# for i in range(1, (count+1)):
+#   print(name)
+
+# name = input("enter you name ")
+# count = int(input("enter number "))
+# for x in range(0, count):
+#   for i in name:
+#     print(i)
+
+# num = int(input("enter a number between 1 and 12 "))
+# if num >= 1 and num <= 12:
+#   for i in range(1,11):
+#     answer = i * num
+#     print(i, "x", num, "=", answer)
+# else:
+#   print("Не похоже, что вы ввесли числа из заданного промежутка")
+
+# num = int(input("enter number between 0 and 50 "))
+# for i in range(50, num-1, -1):
+#   print(i)
+
+# name = input("enter you name ")
+# num = int(input("enter number "))
+# if num < 10:
+#   for i in range(0, num):
+#     print(name)
+# else:
+#   for x in range(0,3):
+#     print("Too high")
+
+# total = 0
+
+# for i in range(0,5):
+#   num = int(input("enter 5 number in order\n lets stars\n enter first number "))
+#   answer = input("Добавлять ли данноу число в суммирование?\n yes or no ")
+#   if answer == "y":
+#     total = num + total
+# print(total)
+
+# road = int(input("В каком направлении вы хотите вести отчет?\n 1)в прямом или 2)обратном "))
+# if road == 1:
+#   num1 = int(input("enter number "))
+#   for i in range(1, num1+1):
+#     print(i)
+# elif road == 2:
+#   num = int(input("enter number less 20 "))
+#   if num <= 20:
+#     for x in range(20, num + 1, -1):
+#       print(x)
+#   else:
+#     print("Looks like you enter number more 20")
+# else:
+#   print("i don`t understand")
+
+# guests = int(input("how many guests you wont to invute? "))
+# if guests < 10:
+#   for i in range(0, guests):
+#     name = input("Введите имя приглашенного человека ")
+#     print(name + " has been invited")
+# elif guests >= 10:
+#   print("too many people")
+
+
+            
+
+
+
+
+
 
   
 
