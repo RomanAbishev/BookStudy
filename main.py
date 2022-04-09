@@ -155,7 +155,7 @@
 #  newword = word + "way"
 # print(newword.lower())
 
-import math
+# import math
 
 # number = float(input("ввести число с большим количеством знаков в дробной части "))
 # rezults = number * 2
@@ -267,6 +267,7 @@ import math
 #     print(name + " has been invited")
 # elif guests >= 10:
 #   print("too many people")
+
 
 
             
