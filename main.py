@@ -401,32 +401,84 @@
 #     score = score + 1
 # print("You scored ", score, " out of 5")
 
-import random
-colour = random.choice(["red","blue","green","white", "pink"])
-print("sekect from red, blue, green, white or pink")
-tryagain = True
-while tryagain == True:
-  theirchoice = input("Выберете цвет ")
-  theirchoice = theirchoice.lower()
-  if colour == theirchoice:
-    print("Well done")
-    tryagain = False
-  else:
-    if colour == "red":
-      print("I bet are seeing RED right now!")
-    elif colour == "blue":
-      print("Don`t feel BLUE")
-    elif colour == "green":
-      print("I bet you are GREEN with envy right now ")
-    elif colour == "white":
-      print("Are you White as a sheet, as you didn`t guess correctly?")
-    elif colour == "pink":
-      print("Some of you are not feeling in the PINK, as got it wrong!")
+# import random
+# colour = random.choice(["red","blue","green","white", "pink"])
+# print("sekect from red, blue, green, white or pink")
+# tryagain = True
+# while tryagain == True:
+#   theirchoice = input("Выберете цвет ")
+#   theirchoice = theirchoice.lower()
+#   if colour == theirchoice:
+#     print("Well done")
+#     tryagain = False
+#   else:
+#     if colour == "red":
+#       print("I bet are seeing RED right now!")
+#     elif colour == "blue":
+#       print("Don`t feel BLUE")
+#     elif colour == "green":
+#       print("I bet you are GREEN with envy right now ")
+#     elif colour == "white":
+#       print("Are you White as a sheet, as you didn`t guess correctly?")
+#     elif colour == "pink":
+#       print("Some of you are not feeling in the PINK, as got it wrong!")
+
+# import turtle
+# scr = turtle.Screen()
+# scr.bgcolor("yellow")
+# turtle.pensize(1)
+# turtle.shape("turtle")
+# turtle.color("black", "red")
+# for i in range(0, 10):
+#  turtle.right(36)
+#  for i in range(0, 5):
+#   turtle.forward(100)
+#   turtle.right(72)
+# turtle.exitonclick()
 
 
+# import turtle
+# turtle.shape("turtle")
+# for i in range (0, 8):
+#   turtle.right(55)
+#   for i in range(0, 4):
+#     turtle.forward(100)
+#     turtle.right(90)
+# turtle.exitonclick()
 
+# import turtle
+# turtle.shape("turtle")
+# for i in range(0, 360):
+#   turtle.forward(1)
+#   turtle.left(1)
+# turtle.exitonclick()
 
-
+import turtle
+turtle.color("black", "red")
+turtle.begin_fill()
+for i in range(0, 4):
+  turtle.forward(70)
+  turtle.right(90)
+turtle.penup()
+turtle.end_fill()
+turtle.forward(100)
+turtle.pendown()
+turtle.color("black", "yellow")
+turtle.begin_fill()
+for i in range(0, 4):
+  turtle.forward(70)
+  turtle.right(90)
+turtle.penup()
+turtle.end_fill()
+turtle.forward(100)
+turtle.pendown()
+turtle.color("black", "green")
+turtle.begin_fill()
+for i in range(0, 4):
+  turtle.forward(70)
+  turtle.right(90)
+turtle.end_fill()
+turtle.exitonclick()
 
   
 
