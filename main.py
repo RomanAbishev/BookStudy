@@ -268,6 +268,181 @@
 # elif guests >= 10:
 #   print("too many people")
 
+# total = 0 
+# while total <= 50: 
+#  num = int(input("Enter a number 50 or less: ")) 
+#  total = total + num 
+# print("The total is ", total)
+
+# num = int(input("Enter a number "))
+# while num < 5:
+#   num = int(input("enter number again "))
+# print("the last number was a ", num)
+
+
+# num = int(input("Enter a first number "))
+# total = num 
+# again = "y"
+# while again == "y":
+#   num2 = int(input("enter number again "))
+#   total = total + num2
+#   again = input("Do you want to add another number, y/n? ")
+    
+# print("The summ is ", total)
+
+
+# guest = 0
+# again = "y"
+# while again == "y":
+#   name2 = input("enter new name ")
+#   print(name2 + " has been invited")
+#   guest = guest + 1
+#   again = input("Хотите еще кого-то пригласить, y/n? ")
+# print("вы пригласили", guest, "гостей")
+
+# compnum = 50
+# guess = int(input("Can you guess the number I am thinking of? "))
+# attempts = 1
+# while guess != 50:
+#   if guess < 50:
+#     print("too low")
+#   else:
+#     print("too high")
+#   attempts = attempts +1
+#   guess = int(input("Have another guess "))
+# print("Well done, you took", attempts, "attempts")
+
+
+# num1 = int(input("enter number between 10 and 20 "))
+# while num1 < 10 or num1 > 20:
+#   if num1 < 10:
+#     print("too low")
+#   else:
+#     print("too high")
+#   num1 = int(input("try one more time "))
+# print("thank you")
+
+# num = 10
+# while num > 0:
+#   print("There are ", num, " green bottles hanging on the wall.")
+#   print( num, " green bottles hanging on the wall.")
+#   print("And if 1 green bottle should accidentally fall,")
+#   num = num - 1
+#   answer = int(input("How many bottles will be handing on the wall? "))
+#   if answer == num:
+#     print("There will be ", num, "green bottels handing on the wall. ")
+#   else:
+#     while answer != num:
+#       answer = int(input("No, try again: "))
+# print("There are no more bottles handing on the wall")
+
+# import random
+# num = random.randint(0, 100)
+# print(num)
+
+# colour = random.choice(["Яблоко", "Груша", "Манго", "Банан", "Киви"])
+# print(colour)
+
+# guess = random.choice(["h", "t"])
+# answer = input("guess heads or tails, h/t? ")
+# if guess == answer:
+#   print("Well done, you win")
+# else:
+#   print("Bad luck ")
+# if guess == "h":
+#   print("It was heads ")
+# else:
+#   print("It was tails")
+
+# import random
+# num = random.randint(1, 5)
+# answer = int(input("enter number 1 - 5 "))
+# if answer == num:
+#   print("Well done")
+# elif answer < num:
+#   print("Вы ввели число меньше загаданного ")
+#   answer = int(input("I give you one more try "))
+#   if answer == num:
+#     print("Correct")
+#   else:
+#     print("you lose")
+# elif answer > num:
+#   print("Вы ввели число больше загаданного")
+#   answer = int(input("I give you one more try "))
+#   if answer == num:
+#     print("Correct")
+#   else:
+#     print("you lose")
+# print("rigth answer was", num)
+
+# import random
+# num = random.randint(1, 10)
+# correct = False
+# while correct == False:
+#   answer = int(input("Enter you guess "))
+#   if answer == num:
+#     correct = True
+#   elif answer > num:
+#     print("too high")
+#   else:
+#     print("too low")
+# print("well done, rigth answer is ", num)
+
+# import random
+# score = 0
+# for i in range(1, 6):
+#   num1 = random.randint(1, 50)
+#   num2 = random.randint(1, 50)
+#   correct = num1 + num2
+#   print(num1, "+", num2, "= ?")
+#   answer = int(input("Your answer: "))
+#   print()
+#   if answer == correct:
+#     score = score + 1
+# print("You scored ", score, " out of 5")
+
+import random
+colour = random.choice(["red","blue","green","white", "pink"])
+print("sekect from red, blue, green, white or pink")
+tryagain = True
+while tryagain == True:
+  theirchoice = input("Выберете цвет ")
+  theirchoice = theirchoice.lower()
+  if colour == theirchoice:
+    print("Well done")
+    tryagain = False
+  else:
+    if colour == "red":
+      print("I bet are seeing RED right now!")
+    elif colour == "blue":
+      print("Don`t feel BLUE")
+    elif colour == "green":
+      print("I bet you are GREEN with envy right now ")
+    elif colour == "white":
+      print("Are you White as a sheet, as you didn`t guess correctly?")
+    elif colour == "pink":
+      print("Some of you are not feeling in the PINK, as got it wrong!")
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
 
 
             
