@@ -423,11 +423,55 @@
 #     elif colour == "pink":
 #       print("Some of you are not feeling in the PINK, as got it wrong!")
 
-country_tuple = ("Russia", "USA", "Ukrain", "England", "France")
-print(country_tuple)
-country = input("Enter one of these countries ")
-print(country, " has index number ", country_tuple.index(country))
+# country_tuple = ("Russia", "USA", "Ukrain", "England", "France")
+# print(country_tuple)
+# country = input("Enter one of these countries ")
+# print(country, " has index number ", country_tuple.index(country))
+# num = int(input("Enter a number between 0 and 4: "))
+# print(country_tuple[num])  
+
+# sports = ["Basketball", "Football"]
+# sports.append(input("Enter you favourite sport: "))
+# print(sorted(sports))
+
+# subject_list = ["Math", "Geo", "Fiz", "Chem", "Informath", "Hisory"]
+# print(subject_list)
+# correct = True
+# while correct == True:
+#   dislike = input("Which of thesee subjects do you dislike? ")
+#   subject_list.remove(dislike)
+#   print("selected subject is deleted ")
+#   dislike1 = input("Do you want remove once more subject? y/n ")
+#   if dislike1 == "n":
+#     print("you subject list is ", subject_list)
+#     correct = False
+#   elif dislike1 == "y":
+#     correct = True
+#   else:
+#     print("I don`t understand you, bye ")
+#     correct = False
+      
+# subject_list = ["maths", "english", "computing", "history", "science", "spanish"]
+# print(subject_list)
+# dislike = input("Which of these subjects do you dislike? ")
+# getrid = subject_list.index(dislike)
+# del subject_list[getrid]
+# print(subject_list)  
   
+
+# food_dictionary = {}
+# food1 = input("Enter a food you like: ")
+# food_dictionary[1] = food1
+# food2 = input("Enter another food you like: ")
+# food_dictionary[2] = food2
+# food3 = input("Enter a third food you like: ")
+# food_dictionary[3] = food3
+# food4 = input("Enter one last food you like: ")
+# food_dictionary[4] = food4
+# print(food_dictionary)
+# dislike = int(input("Which of these do you want to get rid of? "))
+# del food_dictionary[dislike]
+# print(sorted(food_dictionary.values()))
 
 
 
