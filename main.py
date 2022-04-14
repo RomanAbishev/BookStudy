@@ -423,63 +423,10 @@
 #     elif colour == "pink":
 #       print("Some of you are not feeling in the PINK, as got it wrong!")
 
-# import turtle
-# scr = turtle.Screen()
-# scr.bgcolor("yellow")
-# turtle.pensize(1)
-# turtle.shape("turtle")
-# turtle.color("black", "red")
-# for i in range(0, 10):
-#  turtle.right(36)
-#  for i in range(0, 5):
-#   turtle.forward(100)
-#   turtle.right(72)
-# turtle.exitonclick()
-
-
-# import turtle
-# turtle.shape("turtle")
-# for i in range (0, 8):
-#   turtle.right(55)
-#   for i in range(0, 4):
-#     turtle.forward(100)
-#     turtle.right(90)
-# turtle.exitonclick()
-
-# import turtle
-# turtle.shape("turtle")
-# for i in range(0, 360):
-#   turtle.forward(1)
-#   turtle.left(1)
-# turtle.exitonclick()
-
-import turtle
-turtle.color("black", "red")
-turtle.begin_fill()
-for i in range(0, 4):
-  turtle.forward(70)
-  turtle.right(90)
-turtle.penup()
-turtle.end_fill()
-turtle.forward(100)
-turtle.pendown()
-turtle.color("black", "yellow")
-turtle.begin_fill()
-for i in range(0, 4):
-  turtle.forward(70)
-  turtle.right(90)
-turtle.penup()
-turtle.end_fill()
-turtle.forward(100)
-turtle.pendown()
-turtle.color("black", "green")
-turtle.begin_fill()
-for i in range(0, 4):
-  turtle.forward(70)
-  turtle.right(90)
-turtle.end_fill()
-turtle.exitonclick()
-
+country_tuple = ("Russia", "USA", "Ukrain", "England", "France")
+print(country_tuple)
+country = input("Enter one of these countries ")
+print(country, " has index number ", country_tuple.index(country))
   
 
 
