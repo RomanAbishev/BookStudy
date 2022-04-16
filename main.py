@@ -474,6 +474,57 @@
 # print(sorted(food_dictionary.values()))
 
 
+# colours = ["blue", "white", "red", "green", "yellow", "sky", "pink", "purple", "black", "orange"]
+# print(colours)
+# num1 = int(input("enter first number between 0 and 4 "))
+# num2 = int(input("enter second number between 5 and 9 "))
+# print(colours[num1:num2])
+
+# numbers = [123, 375, 282, 777]
+# for i in numbers:
+#   print(i)
+# you_number = int(input("enter number of the list "))
+# if you_number in numbers:
+#   print(you_number, " is in the list on ", numbers.index(you_number), "position")
+# else:
+#   print("number ", you_number, " is not in the list")
+
+
+guest1 = input("enter first guest ")
+guest2 = input("enter first guest ")
+guest3 = input("enter first guest ")
+names = [guest1, guest2, guest3]
+mg = True
+while mg == True:
+  again = input("do you want invite more guests? y/n ")
+  if again == "n":
+    mg = False
+  elif again == "y":
+    new_guest = names.append(input("enter one more guest "))
+    mg = True
+  else:
+    print("pardn I don`t understand you ")
+    mg = True
+print("You have", len(names), " people coming to your party")
+print(names)
+mg1 = True
+while mg1 == True:
+  selection = input("enter one of the names: ")
+  print(selection, "is in position ", names.index(selection), " in the list")
+  stillcome = input("Do yoy still want them to come? y/n ")
+  if stillcome == "n":
+    names.remove(selection)
+    print(names)
+    mg1 = True
+  else:
+    mg1 = False
+print(names)
+  
+
+
+
+
+
 
 
 
