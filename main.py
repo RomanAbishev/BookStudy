@@ -490,39 +490,89 @@
 #   print("number ", you_number, " is not in the list")
 
 
-guest1 = input("enter first guest ")
-guest2 = input("enter first guest ")
-guest3 = input("enter first guest ")
-names = [guest1, guest2, guest3]
-mg = True
-while mg == True:
-  again = input("do you want invite more guests? y/n ")
-  if again == "n":
-    mg = False
-  elif again == "y":
-    new_guest = names.append(input("enter one more guest "))
-    mg = True
-  else:
-    print("pardn I don`t understand you ")
-    mg = True
-print("You have", len(names), " people coming to your party")
-print(names)
-mg1 = True
-while mg1 == True:
-  selection = input("enter one of the names: ")
-  print(selection, "is in position ", names.index(selection), " in the list")
-  stillcome = input("Do yoy still want them to come? y/n ")
-  if stillcome == "n":
-    names.remove(selection)
-    print(names)
-    mg1 = True
-  else:
-    mg1 = False
-print(names)
+# guest1 = input("enter first guest ")
+# guest2 = input("enter first guest ")
+# guest3 = input("enter first guest ")
+# names = [guest1, guest2, guest3]
+# mg = True
+# while mg == True:
+#   again = input("do you want invite more guests? y/n ")
+#   if again == "n":
+#     mg = False
+#   elif again == "y":
+#     new_guest = names.append(input("enter one more guest "))
+#     mg = True
+#   else:
+#     print("pardn I don`t understand you ")
+#     mg = True
+# print("You have", len(names), " people coming to your party")
+# print(names)
+# mg1 = True
+# while mg1 == True:
+#   selection = input("enter one of the names: ")
+#   print(selection, "is in position ", names.index(selection), " in the list")
+#   stillcome = input("Do yoy still want them to come? y/n ")
+#   if stillcome == "n":
+#     names.remove(selection)
+#     print(names)
+#     mg1 = True
+#   else:
+#     mg1 = False
+# print(names)
   
+# name = input("Введите ваше имя ")
+# print(len(name))
+# surname = input("Введите фамилию ")
+# print(len(surname))
+# print(name + " " + surname)
+# fullname = name + " " + surname
+# print(len(fullname))
+
+# subject = input("Введите любимый школьный предмет ")
+# for letter in subject:
+#   print(letter, end="-")
 
 
+# poem = "Мороз и солнце день чудесный"
+# print(poem)
+# fnum = int(input("Выберите начальную позицию "))
+# snum = int(input("Выберите конечную позицию "))
+# print(poem[fnum:snum])
 
+# f_attempt = input("Придумайте пароль ")
+# s_attempt = input("Введите пароль еще раз ")
+# if f_attempt == s_attempt:
+#   print("Thank you")
+  
+# elif f_attempt.lower() == s_attempt:
+#   print("Пароли должны бытиь в одном регистре ")
+# else:
+#     print("Введенные пароли не совпадают, попробуйте еще раз ")
+
+# postcode = input("Введите почтовый индекс ")
+# start = postcode[0:2]
+# print(start.upper())
+
+# name = input("Введите ваше имя ")
+# count = 0
+# for x in name:
+#   if x == "a" or x == "e" or x == "i" or x == "o" or x == "u":
+#     count = count + 1
+# print("Volwes = ", count)
+
+# word = input("Enter a word ")
+# length = len(word)
+# num = 1
+# for x in word:
+#   position = length - num
+#   letter = word[position]
+#   print(letter)
+#   num = num + 1
+  
+from array import *
+
+
+    
 
 
 
