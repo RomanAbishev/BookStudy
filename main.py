@@ -569,7 +569,133 @@
 #   print(letter)
 #   num = num + 1
   
+# from array import *
+
+# newArray = array ('i', [])
+# more = int(input("How many items: "))
+# for y in range(0,more):
+#  newValue=int(input("Enter num: "))
+#  newArray.append(newValue)
+# print(newArray)
+# print(newArray.count(13))
+
+# nums = array ('i', [])
+
+# for y in range(0, 5):
+#   newValue = int(input("Enter a number "))
+#   nums.append(newValue)
+  
+# nums = sorted(nums)
+# nums.reverse()
+# print(nums)
+
+# nums = array('i', [])
+# for i in range (0, 5):
+#   num = random.randint(1, 100)
+#   nums.append(num)
+#   nums = sorted(nums)
+# for i in nums:
+#   print(i)
+
+# nums = array ('i', [])
+
+# while len(nums) < 5:
+#   num = int(input("Enter a number between 10 and 20 "))
+#   if num >=10 and num <= 20:
+#     nums.append(num)
+#   else:
+#     print("Outside the range")
+# nums = sorted(nums)
+# for i in nums:
+#   print(i)
+
+# nums = array('i', [1, 2, 15, 2, 15])
+# for i in nums:
+#   print(i)
+  
+# num = int(input("Enter a number from array "))
+# if nums.count(num) == 1:
+#   print(num, "is in the list once")
+# else:
+#   print(num, "is in the list ", nums.count(num), " times")
+
+  
+# from array import *
+
+# newArray = array ('i', [])
+# more = int(input("How many items: "))
+# for y in range(0,more):
+#  newValue=int(input("Enter num: "))
+#  newArray.append(newValue)
+# print(newArray)
+# print(newArray.count(13))
+
+# nums = array ('i', [])
+
+# for y in range(0, 5):
+#   newValue = int(input("Enter a number "))
+#   nums.append(newValue)
+  
+# nums = sorted(nums)
+# nums.reverse()
+# print(nums)
+
+# nums = array('i', [])
+# for i in range (0, 5):
+#   num = random.randint(1, 100)
+#   nums.append(num)
+#   nums = sorted(nums)
+# for i in nums:
+#   print(i)
+
+# nums = array ('i', [])
+
+# while len(nums) < 5:
+#   num = int(input("Enter a number between 10 and 20 "))
+#   if num >=10 and num <= 20:
+#     nums.append(num)
+#   else:
+#     print("Outside the range")
+# nums = sorted(nums)
+# for i in nums:
+#   print(i)
+
+# nums = array('i', [1, 2, 15, 2, 15])
+# for i in nums:
+#   print(i)
+  
+# num = int(input("Enter a number from array "))
+# if nums.count(num) == 1:
+#   print(num, "is in the list once")
+# else:
+#   print(num, "is in the list ", nums.count(num), " times")
+
 from array import *
+import random
+
+farray = array('i', [])
+for y in range(0, 3):
+ newValue = int(input("Enter a number "))
+ farray.append(newValue)
+
+sarray = array('i', [])
+for i in range(0, 5):
+  num = random.randint(1, 100)
+  sarray.append(num)
+farray.extend(sarray)
+farray = sorted(farray)
+
+for a in farray:
+  print(a)
+  
+  
+  
+
+
+
+  
+
+
 
 
     
